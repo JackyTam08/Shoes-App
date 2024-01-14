@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: url(COLOURBOX2610135.webp);
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.header{
+    width: 100%;
+    height: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 3.5rem;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.logo{
+    background-size: 2.5rem;
+}
+
+.header nav{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.header nav a{
+    font-size: 3.0rem;
+    text-decoration: none;
+    color: black;
+    margin-right: 3rem;
+    transition: .3s ease;
+}
+
+.header nav a:hover{
+    color: rgb(89, 87, 87);
+}
+
+.search-btn{
+    display: flex;
+    margin-right: 50px;
+    background-color: black;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    text-align: center;
+    transition: color .6s;
+}
+
+.search-btn .fa-solid{
+    color: white;
+    font-size: 2.5rem;
+    padding-top: 1rem;
+    margin-right: 3rem;
+}
+
+.fa-solid:hover{
+    color:rgb(113, 107, 107)
+}
+
+
+.search{
+    color: white;
+    background-color: black;
+    font-size: 3.0rem;
+    transition: color .6s;
+}
+
+.search:hover{
+    color:rgb(113, 107, 107)
+}
+
+
+.search-btn::before{
+    content: '';
+
+}
+
+
+.hero{
+    width: 50rem;
+    margin: auto;
+    padding-top: 3rem;
+}
+
+.hero h1{
+    font-size: 7rem;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    background-color: red;
+    border-radius: 20px;
+    margin-bottom: 4rem;
+    
+}
+
+.hero p{
+    font-size: 2rem;
+    margin-top: 3.5rem;
+    text-align: center;
+    margin: 0 auto;
+    color: black;
+    background-color: white;
+}
